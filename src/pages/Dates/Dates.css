@@ -104,6 +104,24 @@
     }
 }
 
+@media only screen and (max-width: 1000px) {
+
+    .Dates {
+        height: 50vh;
+        width: 100vw;
+        border-radius: 0%;
+    }
+
+    .cities {
+        column-gap: 2vmin;
+    }
+
+    .salon li {
+        font-size: 1.5vmin;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
     .Dates {
