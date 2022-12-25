@@ -52,15 +52,32 @@
 
     .Contact h3 {
         margin-top: 20vmin;
-        font-size: 5vmin;
+        font-size: 4.5vmin;
     }
 
     .contact-info {
-        font-size: 10vmin;
+        font-size: 8vmin;
+        padding: 0;
     }
 
     .Alex p, .Kristen p {
         font-size: 3vmin;
+    }
+
+    .Lexi {
+        bottom: 8%;
+    }
+
+}
+
+@media only screen and (max-width: 375px) {
+
+    .Contact {
+        margin: 14vmin 0;
+    }
+
+    .Contact h3 {
+        margin-top: 15vmin;
     }
 
     .Lexi {

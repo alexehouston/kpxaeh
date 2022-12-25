@@ -122,3 +122,11 @@
     }
     
 }
+
+@media only screen and (max-width: 375px) {
+
+    .Dates {
+        margin: 14vmin 0;
+    }
+
+}
