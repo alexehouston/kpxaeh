@@ -1,17 +1,15 @@
 .Contact {
     height: 70vh;
-    width: 50vw;
+    width: 100vw;
     display: grid;
     grid-template-columns: auto auto;
     animation: fade ease 2s;
     text-align: center;
     background-color: rgba(37, 49, 61, 0.6);
-    border-radius: 50px;
     position: fixed;
     top: 55%;
-    left: 52%;
+    left: 50%;
     transform: translate(-50%, -50%);
-    margin-left: 30vmin;
 }
 
 .Contact h3 {
