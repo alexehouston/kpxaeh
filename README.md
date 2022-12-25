@@ -12,7 +12,7 @@
 
 # :pencil: Description
 
-KPxAEH is a simple React.js application that houses the collaboration between hair stylists Alex Houston and Kristen Pennington. Clients are able to navigate to the site in order to book appointments.
+KP x AEH is a simple React.js application that houses the collaboration between hair stylists Kristen Pennington and Alex E. Houston. Clients are able to navigate to the site in order to book appointments.
 
 <a href="https://squiz.herokuapp.com/" target=”_blank”>Deployed Link</a>
 

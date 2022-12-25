@@ -1,6 +1,6 @@
 .Dates {
     height: 70vh;
-    width: 90vw;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -8,7 +8,6 @@
     animation: fade ease 2s;
     text-align: center;
     background-color: rgba(37, 49, 61, 0.6);
-    border-radius: 50px;
     position: fixed;
     top: 55%;
     left: 50%;
@@ -59,8 +58,34 @@
     line-height: 1.5;
 }
 
+@media only screen and (max-width: 1000px) {
+
+    .Dates {
+        height: 50vh;
+    }
+
+    .cities {
+        column-gap: 0;
+    }
+
+    .salon h6 {
+        font-size: 2vmin;
+        margin-bottom: 5vmin;
+    }
+
+    .salon li {
+        font-size: 1.8vmin;
+    }
+
+}
+
 @media only screen and (max-width: 500px) {
 
+    .Dates {
+        height: 85vh;
+        margin-top: 25vmin;
+    }
+    
     .bookings {
         height: 75vh;
         width: 100vw;
@@ -81,6 +106,9 @@
     .cities {
         display: flex;
         flex-direction: column;
+        height: 75vh;
+        width: 100vw;
+        overflow: auto;
     }
 
     .cities h1 {
@@ -100,43 +128,6 @@
     }
 
     .salon h6 {
-        font-size: 3vmin;
+        font-size: 4vmin;
     }
-}
-
-@media only screen and (max-width: 1000px) {
-
-    .Dates {
-        height: 50vh;
-        width: 100vw;
-        border-radius: 0%;
-    }
-
-    .cities {
-        column-gap: 2vmin;
-    }
-
-    .salon li {
-        font-size: 1.5vmin;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
-
-    .Dates {
-        height: 85vh;
-        width: 100vw;
-        border-radius: 0;
-        margin-top: 25vmin;
-    }
-
-    .cities {
-        display: flex;
-        flex-direction: column;
-        height: 75vh;
-        width: 100vw;
-        overflow: auto;
-    }
-    
 }

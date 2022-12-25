@@ -18,6 +18,7 @@ export default function Dates() {
                         <li>1134 W Washington Blvd</li>
                         <li>Chicago, IL 60607</li>
                     </div>
+                    <hr />
                 </div>
                 <div className="sf">
                     <h1>San Francisco</h1>
@@ -33,6 +34,7 @@ export default function Dates() {
                         <li>435A Duboce Ave</li>
                         <li>San Francisco, CA 94117</li>
                     </div>
+                <hr />
                 </div>
                 <div className="ny">
                     <h1>New York</h1>
@@ -48,6 +50,8 @@ export default function Dates() {
                         <li>199 Mott St</li>
                         <li>New York, NY 10012</li>
                     </div>
+                    <hr />
+                    <br />
                 </div>
             </div>
         </div>
