@@ -44,7 +44,7 @@
         height: 85vh;
         width: 100vw;
         border-radius: 0;
-        margin: 10vmin 0;
+        margin: 20vmin 0;
         display: flex;
         flex-direction: column;
         left: 50%;
@@ -72,16 +72,12 @@
 
 @media only screen and (max-width: 375px) {
 
-    .Contact {
-        margin: 14vmin 0;
-    }
-
     .Contact h3 {
-        margin-top: 15vmin;
+        margin-top: 12vmin;
     }
 
     .Lexi {
-        bottom: 15%;
+        bottom: 10%;
     }
 
 }
