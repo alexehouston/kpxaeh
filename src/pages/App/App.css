@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    background-color: black;
+    background-image: url('/public/assets/bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Lexend Mega', sans-serif;
+    text-transform: uppercase;
+    overflow: hidden;
+    color: white;
+    min-height: 100%;
+}
+
+body {
+    animation: fade ease 2s;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a:hover {
+    cursor: pointer;
+    color:rgb(149, 210, 228);
+}
+
+.Home {
+    font-weight: 200;
+    font-size: 5vmin;
+    letter-spacing: -.25vmin;
+    width: 50vw;
+    position: fixed;
+    bottom: 35%;
+    right: 0;
+}
+
+@keyframes fade {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+}

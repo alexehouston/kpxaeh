@@ -1,0 +1,30 @@
+ul, li {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vmin;
+}
+
+.Logo {
+    font-size: 4vmin;
+}
+
+.Nav h1:hover, .Links li:hover {
+    cursor: pointer;
+    color: rgb(149, 210, 228);
+}
+
+.Nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 4vmin;
+}
+
+.Links {
+    font-size: 1.5vmin;
+}
