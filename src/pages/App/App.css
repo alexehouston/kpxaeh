@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 
-html, body {
+html {
     background-color: black;
     background-image: url('/public/assets/bg.png');
     background-size: cover;
@@ -43,4 +43,16 @@ a:hover {
 @keyframes fade {
     0% { opacity: 0; }
     100% { opacity: 1; }
+}
+
+@media only screen and (max-width: 500px) {
+
+    .Home {
+        width: 100vw;
+        font-size: 8vmin;
+        bottom: 20%;
+        background-color: rgba(37, 49, 61, 0.6);
+        padding: 5vmin 5vmin 5vmin 10vmin;
+    }
+    
 }

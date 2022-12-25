@@ -28,3 +28,21 @@ ul {
 .Links {
     font-size: 1.5vmin;
 }
+
+@media only screen and (max-width: 500px) {
+
+    .Links {
+        flex-direction: column;
+        align-items: flex-end;
+        line-height: 10vmin;
+    }
+    
+    .Nav h1 {
+        font-size: 7vmin;
+    }
+
+    .Links li {
+        font-size: 3vmin;
+    }
+    
+}

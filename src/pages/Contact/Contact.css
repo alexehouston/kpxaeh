@@ -37,3 +37,34 @@
     left: 50%;
     transform: translate(-50%, -50%);
 }
+
+@media only screen and (max-width: 500px) {
+
+    .Contact {
+        height: 85vh;
+        width: 100vw;
+        border-radius: 0;
+        margin: 10vmin 0;
+        display: flex;
+        flex-direction: column;
+        left: 50%;
+    }
+
+    .Contact h3 {
+        margin-top: 20vmin;
+        font-size: 5vmin;
+    }
+
+    .contact-info {
+        font-size: 10vmin;
+    }
+
+    .Alex p, .Kristen p {
+        font-size: 3vmin;
+    }
+
+    .Lexi {
+        bottom: 15%;
+    }
+
+}

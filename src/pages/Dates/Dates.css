@@ -104,11 +104,21 @@
     }
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
 
-    .bookings {
-        height: 70vh;
-        padding-top: 120vmin;
+    .Dates {
+        height: 85vh;
+        width: 100vw;
+        border-radius: 0;
+        margin-top: 10vmin;
+    }
+
+    .cities {
+        display: flex;
+        flex-direction: column;
+        height: 75vh;
+        width: 100vw;
+        overflow: auto;
     }
     
 }
