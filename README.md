@@ -20,12 +20,7 @@ KP x AEH is a simple React.js application that houses the collaboration between 
 
 # :gear: Functionality
 
-<h4 align="center">Home Page</h4><br/>
-<p align="center"><img src="public/assets/readme/desktop-home.png" width="800"></p><br/>
-<h4 align="center">Travel Dates</h4><br/>
-<p align="center"><img src="public/assets/readme/desktop-dates.png" width="800"></p><br/>
-<h4 align="center">Contact</h4><br/>
-<p align="center"><img src="public/assets/readme/desktop-contact.png"width="800"></p>
+
 
 
 <br /><h4 align="center">Mobile-View</h4><br/>
