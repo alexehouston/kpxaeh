@@ -14,7 +14,7 @@
 
 KP x AEH is a simple React.js application that houses the collaboration between hair stylists Kristen Pennington and Alex E. Houston. Clients are able to navigate to the site in order to book appointments.
 
-<a href="https://squiz.herokuapp.com/" target=”_blank”>Deployed Link</a>
+<a href="https://kpxaeh.com" target=”_blank”>Deployed Link</a>
 
 <br>
 
