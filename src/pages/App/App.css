@@ -38,6 +38,7 @@ a:hover {
     position: fixed;
     bottom: 35%;
     right: 0;
+    animation: fadeInRight 1s;
 }
 
 @keyframes fade {

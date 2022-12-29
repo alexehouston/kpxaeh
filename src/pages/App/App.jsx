@@ -2,6 +2,7 @@ import { useState } from 'react';
 import Nav from '../../components/Nav/Nav';
 import Dates from '../Dates/Dates';
 import Contact from '../Contact/Contact';
+import 'animate.css';
 import './App.css';
 
 export default function App() {

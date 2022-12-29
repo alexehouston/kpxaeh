@@ -2,38 +2,27 @@
     height: 70vh;
     width: 100vw;
     display: grid;
-    grid-template-columns: auto auto;
-    animation: fade ease 2s;
+    grid-template-columns: auto auto auto;
+    animation: fadeInUp 1s;
     text-align: center;
     background-color: rgba(37, 49, 61, 0.6);
-    position: fixed;
-    top: 55%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    margin: 6vmin 0 0 -1vmin;
 }
 
 .Contact h3 {
-    margin-top: 14vmin;
+    margin-top: 24vmin;
 }
 
 .contact-info {
     display: flex;
     justify-content: center;
     align-items: center;
-    column-gap: 5vmin;
     font-size: 4vmin;
     padding: 2vmin 0;
 }
 
 .Alex p, .Kristen p {
     font-size: 1.5vmin;
-}
-
-.Lexi {
-    position: fixed;
-    top: 70%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 @media only screen and (max-width: 1000px) {

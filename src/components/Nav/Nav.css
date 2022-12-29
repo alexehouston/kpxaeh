@@ -23,6 +23,7 @@ ul {
     display: flex;
     justify-content: space-between;
     padding: 0 4vmin;
+    animation: fadeInDown 1s;
 }
 
 .Links {
