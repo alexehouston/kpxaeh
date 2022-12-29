@@ -25,14 +25,22 @@
     font-size: 1.5vmin;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
     
     .Contact {
-        width: 100vw;
-        height: 50vh;
-        border-radius: 0;
+        height: 55vh;
+        margin-top: 25vmin;
+    }
+
+    .Contact {
+        display: flex;
+        flex-direction: column;
+        row-gap: 8vmin;
+        padding-top: 9vmin;
+    }
+
+    .Contact h3 {
         margin: 0;
-        left: 50%;
     }
 
 }
@@ -40,36 +48,31 @@
 @media only screen and (max-width: 500px) {
 
     .Contact {
-        height: 85vh;
-        width: 100vw;
-        border-radius: 0;
-        margin: 25vmin 0;
+        height: 70vh;
         display: flex;
         flex-direction: column;
-        left: 50%;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        row-gap: 2vmin;
     }
 
     .Contact h3 {
-        margin-top: 20vmin;
-        font-size: 4.5vmin;
+        font-size: 4vmin;
     }
 
     .contact-info {
-        font-size: 8vmin;
+        font-size: 6vmin;
         padding: 0;
     }
 
     .Alex p, .Kristen p {
-        font-size: 3vmin;
-    }
-
-    .Lexi {
-        bottom: 8%;
+        font-size: 2.5vmin;
     }
 
 }
 
-@media only screen and (max-width: 375px) {
+@media only screen and (max-width: 500px) {
 
     .Contact h3 {
         margin-top: 10vmin;

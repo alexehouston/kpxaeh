@@ -55,10 +55,11 @@
     font-weight: 200;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1500px) {
 
     .Dates {
-        height: 50vh;
+        height: 55vh;
+        margin-top: 25vmin;
     }
 
     .cities {
@@ -79,17 +80,15 @@
 @media only screen and (max-width: 500px) {
 
     .Dates {
-        height: 85vh;
-        margin-top: 25vmin;
+        height: 70vh;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        padding-top: 3vmin;
     }
     
     .bookings {
-        height: 75vh;
-        width: 100vw;
-        position: fixed;
-        bottom: 5%;
         overflow-y: auto;
-        padding-top: 85vmin;
     }
 
     .book h1 {
