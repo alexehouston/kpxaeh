@@ -8,7 +8,6 @@ export default function Dates() {
                     <h1>Chicago</h1>
                     <a href="https://kpxaeh.as.me/chi" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
-                        <li>February 18 + 19</li>
                         <li>May 20 + 21</li>
                         <li>August 19 + 20</li>
                         <li>November 11 + 12</li>
@@ -26,7 +25,6 @@ export default function Dates() {
                     <h1>San Francisco</h1>
                     <a href="https://kpxaeh.as.me/sf" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
-                        <li>March 5</li>
                         <li>June 11</li>
                         <li>September 10</li>
                         <li>December 10</li>
@@ -34,8 +32,8 @@ export default function Dates() {
                     <div className="salon">
                     <a href="https://www.orosalonsf.com/" target="_blank" rel="noreferrer"><h6>Oro Salon</h6></a>
                     <a href="https://www.google.com/maps/place/ORO+Duboce/@37.769165,-122.429861,15z/data=!4m5!3m4!1s0x0:0x6e94fd4e7266cf39!8m2!3d37.769165!4d-122.429861" target="_blank" rel="noreferrer">
-                        <li>435A Duboce Ave</li>
-                        <li>San Francisco, CA 94117</li>
+                        <li>TBA</li>
+                        <li>&nbsp;</li>
                         </a>
                     </div>
                 <hr />
@@ -44,7 +42,6 @@ export default function Dates() {
                     <h1>New York</h1>
                     <a href="https://kpxaeh.as.me/ny" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
-                        <li>April 16</li>
                         <li>July 16</li>
                         <li>October 15</li>
                         <li>&nbsp;</li>
