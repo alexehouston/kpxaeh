@@ -23,11 +23,13 @@ body {
 a {
     text-decoration: none;
     color: white;
+    transition: all 0.5s ease;
 }
 
 a:hover {
     cursor: pointer;
     color:rgb(149, 210, 228);
+    transform: scale(1.1);
 }
 
 .Home {

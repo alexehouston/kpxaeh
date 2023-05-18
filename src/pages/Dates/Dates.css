@@ -29,15 +29,15 @@
 .booking-link {
     color: black;
     background-color: rgb(149, 210, 228);
-    padding: .5vmin;
-    border-radius: 5px;
+    padding: 1vmin;
+    border-radius: 15px;
     font-size: 1.5vmin;
     line-height: 4;
 }
 
 .booking-link:hover {
     color: black;
-    background-color: white; 
+    background-color: white;
 }
 
 .dates {

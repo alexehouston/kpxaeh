@@ -14,9 +14,14 @@ ul {
     font-size: 4vmin;
 }
 
+.Nav h1, .Links li {
+    transition: all 0.5s ease;
+}
+
 .Nav h1:hover, .Links li:hover {
     cursor: pointer;
     color: rgb(149, 210, 228);
+    transform: scale(1.1);
 }
 
 .Nav {

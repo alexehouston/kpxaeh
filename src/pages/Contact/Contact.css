@@ -1,16 +1,23 @@
 .Contact {
     height: 70vh;
     width: 100vw;
-    display: grid;
-    grid-template-columns: auto auto auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 0;
     animation: fadeInUp 1s;
     text-align: center;
     background-color: rgba(37, 49, 61, 0.6);
     margin: 6vmin 0 0 -1vmin;
+    padding: 5vmin;
 }
 
-.Contact h3 {
-    margin-top: 24vmin;
+.Kristen, .Alex, .Lexi {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-radius: 50px;
+    width: 50vmin;
+    padding: 0 1vmin 2vmin 1vmin;
+    margin: auto;
 }
 
 .contact-info {
@@ -18,11 +25,18 @@
     justify-content: center;
     align-items: center;
     font-size: 4vmin;
-    padding: 2vmin 0;
 }
 
-.Alex p, .Kristen p {
-    font-size: 1.5vmin;
+.Alex .fa-instagram {
+    padding-left: 2vmin;
+}
+
+.Kristen .fa-instagram {
+    padding: 0 2vmin;
+}
+
+.fa-phone {
+    font-size: 3.5vmin;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -41,6 +55,12 @@
 
     .Contact h3 {
         margin: 0;
+        padding-bottom: 2vmin;
+    }
+
+    .Kristen, .Alex, .Lexi {
+        padding-top: 2vmin;
+        background-color: rgba(255, 255, 255, 0.15);
     }
 
 }
@@ -54,32 +74,34 @@
         position: fixed;
         bottom: 0;
         left: 0;
-        row-gap: 2vmin;
-    }
-
-    .Contact h3 {
-        font-size: 4vmin;
+        padding: 15vmin;
     }
 
     .contact-info {
-        font-size: 6vmin;
-        padding: 0;
+        font-size: 7vmin;
+        padding: 2vmin 0;
     }
-
-    .Alex p, .Kristen p {
-        font-size: 2.5vmin;
-    }
-
-}
-
-@media only screen and (max-width: 500px) {
 
     .Contact h3 {
-        margin-top: 10vmin;
+        font-size: 3.5vmin;
     }
 
-    .Lexi {
-        bottom: 7%;
+    .Kristen, .Alex, .Lexi {
+        width: 65vmin;
+        padding-top: 4vmin;
+        margin: auto;
+    }
+
+    .fa-phone {
+        font-size: 6vmin;
+    }
+
+    .Kristen .fa-instagram {
+        padding: 0 4vmin;
+    }
+
+    .Alex .fa-instagram {
+        padding-left: 4vmin;
     }
 
 }

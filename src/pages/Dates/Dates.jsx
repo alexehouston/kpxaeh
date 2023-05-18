@@ -13,11 +13,11 @@ export default function Dates() {
                         <li>November 11 + 12</li>
                     </div>
                     <div className="salon">
-                    <a href="https://www.solo-salon.com/" target="_blank" rel="noreferrer"><h6>Solo Salon</h6></a>
-                    <a href="https://www.google.com/maps/place/SOLO+SALON+WASHINGTON/@41.8831539,-87.6557881,15z/data=!4m2!3m1!1s0x0:0xd97919872e4abb89?sa=X&ved=2ahUKEwi-04anmZ78AhWKkmoFHc8kDfkQ_BJ6BAh3EAg" target="_blank" rel="noreferrer">
-                        <li>1134 W Washington Blvd</li>
-                        <li>Chicago, IL 60607</li>
-                    </a>
+                        <a href="https://www.solo-salon.com/" target="_blank" rel="noreferrer"><h6>Solo Salon</h6></a>
+                        <a href="https://www.google.com/maps/place/SOLO+SALON+WASHINGTON/@41.8831539,-87.6557881,15z/data=!4m2!3m1!1s0x0:0xd97919872e4abb89?sa=X&ved=2ahUKEwi-04anmZ78AhWKkmoFHc8kDfkQ_BJ6BAh3EAg" target="_blank" rel="noreferrer">
+                            <li>1134 W Washington Blvd</li>
+                            <li>Chicago, IL 60607</li>
+                        </a>
                     </div>
                     <hr />
                 </div>
@@ -30,11 +30,11 @@ export default function Dates() {
                         <li>December 10</li>
                     </div>
                     <div className="salon">
-                    <a href="https://www.orosalonsf.com/" target="_blank" rel="noreferrer"><h6>Oro Salon</h6></a>
-                    <a href="https://www.google.com/maps/place/ORO+Duboce/@37.769165,-122.429861,15z/data=!4m5!3m4!1s0x0:0x6e94fd4e7266cf39!8m2!3d37.769165!4d-122.429861" target="_blank" rel="noreferrer">
-                        <li>TBA</li>
-                        <li>&nbsp;</li>
-                        </a>
+                        <a href="https://www.orosalonsf.com/" target="_blank" rel="noreferrer"><h6>&nbsp;</h6></a>
+                        {/* <a href="javascript:void(0);" target="_blank" rel="noreferrer"> */}
+                            <li>TBA</li>
+                            <li>&nbsp;</li>
+                        {/* </a> */}
                     </div>
                 <hr />
                 </div>
