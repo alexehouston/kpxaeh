@@ -6,7 +6,7 @@ export default function Dates() {
             <div className="cities">
             <div className="chi">
                     <h1>Chicago</h1>
-                    <a href="https://kpxaeh.as.me/chi" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
+                    <a href="https://kpxaeh.as.me/chicago" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
                         <li>May 20 + 21</li>
                         <li>August 19 + 20</li>
@@ -23,7 +23,7 @@ export default function Dates() {
                 </div>
                 <div className="sf">
                     <h1>San Francisco</h1>
-                    <a href="https://kpxaeh.as.me/?location=San%20Francisco" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
+                    <a href="https://kpxaeh.as.me/sanfrancisco" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
                         <li>June 11</li>
                         <li>September 10</li>
@@ -40,7 +40,7 @@ export default function Dates() {
                 </div>
                 <div className="ny">
                     <h1>New York</h1>
-                    <a href="https://kpxaeh.as.me/ny" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
+                    <a href="https://kpxaeh.as.me/newyork" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
                         <li>July 16</li>
                         <li>October 15</li>
