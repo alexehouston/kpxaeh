@@ -8,9 +8,9 @@ export default function Dates() {
                     <h1>Chicago</h1>
                     <a href="https://kpxaeh.as.me/chicago" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
-                        <li>May 20 + 21</li>
-                        <li>August 19 + 20</li>
+                        <li>August 12 + 13</li>
                         <li>November 11 + 12</li>
+                        <li>&nbsp;</li>
                     </div>
                     <div className="salon">
                         <a href="https://www.solo-salon.com/" target="_blank" rel="noreferrer"><h6>Solo Salon</h6></a>
