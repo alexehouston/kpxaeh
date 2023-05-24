@@ -6,9 +6,9 @@ export default function Contact() {
             <div className="Kristen">
                 <h3>Contact Kristen</h3>
                 <div className="contact-info">
+                    <a href="tel:708 351-7087"><i class="fa-solid fa-phone"></i></a>
                     <a href = "mailto:kristen@kphaircolor.com?subject = KP Hair Color Booking&body = Message"><i class="fa-solid fa-envelope"></i></a>
                     <a href="https://www.instagram.com/kphaircolor/" target="_blank" rel="noreferrer"><i class="fa-brands fa-instagram"></i></a>
-                    <a href="tel:708 351-7087"><i class="fa-solid fa-phone"></i></a>
                 </div>
             </div>
             <div className="Alex">

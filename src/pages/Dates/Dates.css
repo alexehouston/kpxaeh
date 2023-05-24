@@ -23,13 +23,13 @@
 
 .cities li {
     line-height: 2;
-    font-size: 2vmin;
+    font-size: 1.75vmin;
 }
 
 .booking-link {
     color: black;
     background-color: rgb(149, 210, 228);
-    padding: 1vmin;
+    padding: 0.5vmin 1vmin;
     border-radius: 15px;
     font-size: 1.5vmin;
     line-height: 4;
