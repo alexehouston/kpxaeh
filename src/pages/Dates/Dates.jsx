@@ -25,9 +25,9 @@ export default function Dates() {
                     <h1>San Francisco</h1>
                     <a href="https://kpxaeh.as.me/sanfrancisco" className="booking-link" target="_blank" rel="noreferrer">Booking Link</a>
                     <div className="dates">
-                        <li>June 11</li>
                         <li>September 10</li>
                         <li>December 10</li>
+                        <li>&nbsp;</li>
                     </div>
                     <div className="salon">
                         <a href="https://www.orosalonsf.com/" target="_blank" rel="noreferrer"><h6>&nbsp;</h6></a>
