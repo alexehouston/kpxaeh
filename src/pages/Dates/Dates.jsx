@@ -10,7 +10,6 @@ export default function Dates() {
                     <div className="dates">
                         <li>August 12 + 13</li>
                         <li>November 11 + 12</li>
-                        <li>&nbsp;</li>
                     </div>
                     <div className="salon">
                         <a href="https://www.solo-salon.com/" target="_blank" rel="noreferrer"><h6>Solo Salon</h6></a>
@@ -27,7 +26,6 @@ export default function Dates() {
                     <div className="dates">
                         <li>September 10</li>
                         <li>December 10</li>
-                        <li>&nbsp;</li>
                     </div>
                     <div className="salon">
                         <a href="https://www.orosalonsf.com/" target="_blank" rel="noreferrer"><h6>&nbsp;</h6></a>
@@ -44,7 +42,6 @@ export default function Dates() {
                     <div className="dates">
                         <li>July 16</li>
                         <li>October 15</li>
-                        <li>&nbsp;</li>
                     </div>
                     <div className="salon">
                         <a href="https://www.mariabonitany.com/" target="_blank" rel="noreferrer"><h6>Maria Bonita Salon</h6></a>
