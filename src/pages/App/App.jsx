@@ -11,7 +11,7 @@ export default function App() {
   return (
     <>
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {currentPage === 'dates' ? ( <Dates /> ) : currentPage === 'contact' ? ( <Contact /> ) : ( <><h1 className="Home">Book with<br />Kristen Pennington<br /> & Alex E. Houston</h1></> )}
+      {currentPage === 'dates' ? ( <Dates /> ) : currentPage === 'contact' ? ( <Contact /> ) : ( <><h1 className="Home">Book with<br /><span>Kristen Pennington</span><br /> & <span>Alex E. Houston</span></h1></> )}
     </>
   );
 }

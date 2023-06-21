@@ -14,6 +14,12 @@ ul {
     font-size: 4vmin;
 }
 
+.Links {
+    font-family: 'Martian Mono', monospace;
+    font-weight: 200;
+    letter-spacing: 1px;
+}
+
 .Nav h1, .Links li {
     transition: all 0.5s ease;
 }

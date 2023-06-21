@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Lexend+Mega:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@100;200;300;400;500;600;700;800&display=swap');
 
 * {
     box-sizing: border-box;
@@ -33,7 +34,7 @@ a:hover {
 }
 
 .Home {
-    font-weight: 200;
+    font-weight: 100;
     font-size: 5vmin;
     letter-spacing: -.25vmin;
     width: 50vw;
@@ -41,6 +42,10 @@ a:hover {
     bottom: 35%;
     right: 0;
     animation: fadeInRight 1s;
+}
+
+.Home span {
+    font-weight: 200;
 }
 
 @keyframes fade {

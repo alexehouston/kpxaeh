@@ -1,129 +1,202 @@
 .Dates {
-    height: 70vh;
-    width: 100vw;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    animation: fadeInUp 1s;
-    background-color: rgba(37, 49, 61, 0.6);
-    margin: 6vmin 0 0 -1vmin;
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  animation: fadeInUp 1s;
+  background-color: rgba(37, 49, 61, 0.6);
+  margin: 6vmin 0 0 -1vmin;
 }
 
 .cities {
-    display: grid;
-    grid-template-columns: auto auto auto;
-    column-gap: 15vmin;
-    text-align: center;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  column-gap: 15vmin;
+  text-align: center;
 }
 
 .cities h1 {
-    font-size: 3vmin;
+  font-size: 3vmin;
 }
 
 .cities li {
-    line-height: 2;
-    font-size: 1.75vmin;
+  line-height: 2;
+  font-size: 1.75vmin;
+}
+
+button {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  outline: none;
+  border: 0;
+  vertical-align: middle;
+  text-decoration: none;
+  background: transparent;
+  padding: 0;
+  font-size: inherit;
+  font-family: inherit;
 }
 
 .booking-link {
-    color: black;
-    background-color: rgb(149, 210, 228);
-    padding: 0.5vmin 1vmin;
-    border-radius: 15px;
-    font-size: 1.5vmin;
-    line-height: 4;
+  width: 15rem;
+  height: auto;
+  margin: 1vmin 0 2.5vmin;
 }
 
-.booking-link:hover {
-    color: black;
-    background-color: white;
+.circle {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: relative;
+  display: block;
+  margin: 0;
+  width: 3rem;
+  height: 3rem;
+  background: #18181a;
+  border-radius: 1.625rem;
+}
+
+.icon {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin: auto;
+  background: #fff;
+}
+
+.arrow {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  left: 0.625rem;
+  width: 1.125rem;
+  height: 0.125rem;
+  background: none;
+}
+
+.arrow::before {
+  position: absolute;
+  content: "";
+  top: -0.25rem;
+  right: 0.0625rem;
+  width: 0.625rem;
+  height: 0.625rem;
+  border-top: 0.125rem solid rgb(149, 210, 228);
+  border-right: 0.125rem solid rgb(149, 210, 228);
+  transform: rotate(45deg);
+  transition: all .5s ease;
+}
+
+.button-text {
+  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 0.75rem 0;
+  margin: 0 0 0 1.85rem;
+  color: #282936;
+  font-family: "Martian Mono", monospace;
+  font-weight: 200;
+  letter-spacing: 1px;
+  line-height: 1.6;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+button:hover .circle {
+  width: 100%;
+}
+
+button:hover .booking-link {
+  color: rgb(149, 210, 228);
 }
 
 .dates {
-    margin-top: 3vmin;
+  font-family: "Martian Mono", monospace;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin-top: 3vmin;
 }
 
 .salon h6 {
-    margin: 10vmin 0 3vmin 0;
-    line-height: 0;
-    font-size: 2vmin;
+  margin: 10vmin 0 2vmin 0;
+  font-size: 2vmin;
 }
 
 .salon li {
-    line-height: 1.5;
-    font-weight: 200;
+  font-family: "Martian Mono", monospace;
+  line-height: 1.5;
+  font-weight: 200;
 }
 
 @media only screen and (max-width: 1500px) {
+  .Dates {
+    height: 55vh;
+    margin-top: 25vmin;
+  }
 
-    .Dates {
-        height: 55vh;
-        margin-top: 25vmin;
-    }
+  .cities {
+    column-gap: 0;
+  }
 
-    .cities {
-        column-gap: 0;
-    }
+  .salon h6 {
+    font-size: 2vmin;
+    margin-bottom: 5vmin;
+  }
 
-    .salon h6 {
-        font-size: 2vmin;
-        margin-bottom: 5vmin;
-    }
-
-    .salon li {
-        font-size: 1.8vmin;
-    }
-
+  .salon li {
+    font-size: 1.8vmin;
+  }
 }
 
 @media only screen and (max-width: 500px) {
+  .Dates {
+    height: 70vh;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    padding-top: 3vmin;
+  }
 
-    .Dates {
-        height: 70vh;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        padding-top: 3vmin;
-    }
-    
-    .bookings {
-        overflow-y: auto;
-    }
+  .bookings {
+    overflow-y: auto;
+  }
 
-    .book h1 {
-        font-size: 5vmin;
-    }
+  .book h1 {
+    font-size: 5vmin;
+  }
 
-    .book p {
-        font-size: 2.5vmin;
-    }
+  .book p {
+    font-size: 2.5vmin;
+  }
 
-    .cities {
-        display: flex;
-        flex-direction: column;
-        height: 75vh;
-        width: 100vw;
-        overflow: auto;
-    }
+  .cities {
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    width: 100vw;
+    overflow: auto;
+  }
 
-    .cities h1 {
-        font-size: 5vmin;
-    }
+  .cities h1 {
+    font-size: 5vmin;
+  }
 
-    .cities li {
-        font-size: 3vmin;
-    }
+  .cities li {
+    font-size: 3vmin;
+  }
 
-    .cities a {
-        font-size: 3vmin;
-    }
+  .cities a {
+    font-size: 3vmin;
+  }
 
-    .salon {
-        padding: 5vmin 0 10vmin 0;
-    }
+  .salon {
+    padding: 5vmin 0 10vmin 0;
+  }
 
-    .salon h6 {
-        font-size: 4vmin;
-    }
+  .salon h6 {
+    font-size: 4vmin;
+  }
 }
