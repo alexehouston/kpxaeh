@@ -14,10 +14,22 @@
 
 .Kristen, .Alex, .Lexi {
     background-color: rgba(255, 255, 255, 0.06);
-    border-radius: 70px;
-    width: 50vmin;
+    border-radius: 40px;
+    width: 35vmin;
     padding: 0 1vmin 2vmin 1vmin;
     margin: auto;
+    box-shadow: rgb(149, 210, 228, 0.4) 0px 5px, rgb(149, 210, 228, 0.3) 0px 10px, rgb(149, 210, 228, 0.2) 0px 15px, rgb(149, 210, 228, 0.1) 0px 20px, rgb(149, 210, 228, 0.05) 0px 25px;
+}
+
+.Kristen h3, .Alex h3, .Lexi h3 {
+    font-weight: 300;
+    letter-spacing: 1px;
+    font-size: 1.6vmin;
+}
+
+.Kristen span, .Alex span, .Lexi span {
+    color: rgb(149, 210, 228);
+    font-weight: 900;
 }
 
 .contact-info {
