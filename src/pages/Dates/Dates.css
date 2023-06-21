@@ -116,12 +116,12 @@ button:hover .booking-link {
 .dates {
   font-family: "Martian Mono", monospace;
   font-weight: 600;
-  letter-spacing: 1px;
+  letter-spacing: 1.5px;
   margin-top: 3vmin;
 }
 
 .salon h6 {
-  margin: 10vmin 0 2vmin 0;
+  margin: 10vmin 0 1.5vmin 0;
   font-size: 2vmin;
 }
 
@@ -129,6 +129,7 @@ button:hover .booking-link {
   font-family: "Martian Mono", monospace;
   line-height: 1.5;
   font-weight: 200;
+  font-size: .85rem;
 }
 
 @media only screen and (max-width: 1500px) {
