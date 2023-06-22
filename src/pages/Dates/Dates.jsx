@@ -6,22 +6,15 @@ export default function Dates() {
       <div className="cities">
         <div className="chi">
           <h1>Chicago</h1>
-          <div id="container">
-            <button class="booking-link">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
-              </span>
-              <span class="button-text">
-                <a
-                  href="https://kpxaeh.as.me/chicago"
-                  className="booking-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Booking Link
-                </a>
-              </span>
-            </button>
+          <div className="booking-container">
+          <a
+            href="https://kpxaeh.as.me/chicago"
+            className="booking-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Booking Link<i class="fa-solid fa-chevron-right"></i>
+          </a>
           </div>
           <div className="dates">
             <li>August 12 + 13</li>
@@ -40,7 +33,7 @@ export default function Dates() {
               target="_blank"
               rel="noreferrer"
             >
-              <li>1134 W Washington Blvd</li>
+              <li><i class="fa-solid fa-location-dot"></i> 1134 W Washington Blvd</li>
               <li>Chicago, IL 60607</li>
             </a>
           </div>
@@ -48,22 +41,15 @@ export default function Dates() {
         </div>
         <div className="sf">
           <h1>San Francisco</h1>
-          <div id="container">
-            <button class="booking-link">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
-              </span>
-              <span class="button-text">
-                <a
-                  href="https://kpxaeh.as.me/sanfrancisco"
-                  className="booking-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Booking Link
-                </a>
-              </span>
-            </button>
+          <div className="booking-container">
+            <a
+              href="https://kpxaeh.as.me/sanfrancisco"
+              className="booking-link"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Booking Link<i class="fa-solid fa-chevron-right"></i>
+            </a>
           </div>
           <div className="dates">
             <li>September 10</li>
@@ -77,31 +63,22 @@ export default function Dates() {
             >
               <h6>&nbsp;</h6>
             </a>
-            {/* <a href="javascript:void(0);" target="_blank" rel="noreferrer"> */}
             <li>TBA</li>
             <li>&nbsp;</li>
-            {/* </a> */}
           </div>
           <hr />
         </div>
         <div className="ny">
           <h1>New York</h1>
-          <div id="container">
-            <button class="booking-link">
-              <span class="circle" aria-hidden="true">
-                <span class="icon arrow"></span>
-              </span>
-              <span class="button-text">
-                <a
-                  href="https://kpxaeh.as.me/newyork"
-                  className="booking-link"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  Booking Link
-                </a>
-              </span>
-            </button>
+          <div className="booking-container">
+          <a
+            href="https://kpxaeh.as.me/newyork"
+            className="booking-link"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Booking Link<i class="fa-solid fa-chevron-right"></i>
+          </a>
           </div>
           <div className="dates">
             <li>July 16</li>
@@ -120,7 +97,7 @@ export default function Dates() {
               target="_blank"
               rel="noreferrer"
             >
-              <li>199 Mott St</li>
+              <li><i class="fa-solid fa-location-dot"></i> 199 Mott St</li>
               <li>New York, NY 10012</li>
             </a>
           </div>

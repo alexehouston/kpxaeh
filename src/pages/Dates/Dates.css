@@ -26,110 +26,39 @@
   font-size: 1.75vmin;
 }
 
-button {
-  position: relative;
-  display: inline-block;
-  cursor: pointer;
-  outline: none;
-  border: 0;
-  vertical-align: middle;
-  text-decoration: none;
-  background: transparent;
-  padding: 0;
-  font-size: inherit;
-  font-family: inherit;
+.booking-container {
+  margin: 4vmin 0 6vmin;
 }
 
 .booking-link {
-  width: 15rem;
-  height: auto;
-  margin: 1vmin 0 2.5vmin;
+  background-color: #18181a;
+  font-size: 1.25vmin;
+  border-radius: 10px;
+  padding: 1vmin 1vmin 1.25vmin 1vmin;
+  box-shadow: rgb(149, 210, 228, 0.4) 0px 5px, rgb(149, 210, 228, 0.3) 0px 10px, rgb(149, 210, 228, 0.2) 0px 15px, rgb(149, 210, 228, 0.1) 0px 20px, rgb(149, 210, 228, 0.05) 0px 25px;
 }
 
-.circle {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: relative;
-  display: block;
-  margin: 0;
-  width: 3rem;
-  height: 3rem;
-  background: #18181a;
-  border-radius: 1.625rem;
-}
-
-.icon {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  margin: auto;
-  background: #fff;
-}
-
-.arrow {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  left: 0.625rem;
-  width: 1.125rem;
-  height: 0.125rem;
-  background: none;
-}
-
-.arrow::before {
-  position: absolute;
-  content: "";
-  top: -0.25rem;
-  right: 0.0625rem;
-  width: 0.625rem;
-  height: 0.625rem;
-  border-top: 0.125rem solid rgb(149, 210, 228);
-  border-right: 0.125rem solid rgb(149, 210, 228);
-  transform: rotate(45deg);
-  transition: all .5s ease;
-}
-
-.button-text {
-  transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  padding: 0.75rem 0;
-  margin: 0 0 0 1.85rem;
-  color: #282936;
-  font-family: "Martian Mono", monospace;
-  font-weight: 200;
-  letter-spacing: 1px;
-  line-height: 1.6;
-  text-align: center;
-  text-transform: uppercase;
-}
-
-button:hover .circle {
-  width: 100%;
-}
-
-button:hover .booking-link {
-  color: rgb(149, 210, 228);
+.fa-chevron-right {
+  padding: 0 .5vmin 0 1vmin;
 }
 
 .dates {
   font-family: "Martian Mono", monospace;
-  font-weight: 600;
+  font-weight: 200;
   letter-spacing: 1.5px;
   margin-top: 3vmin;
 }
 
 .salon h6 {
   margin: 10vmin 0 1.5vmin 0;
-  font-size: 2vmin;
+  font-size: 1.75vmin;
 }
 
 .salon li {
   font-family: "Martian Mono", monospace;
   line-height: 1.5;
   font-weight: 200;
-  font-size: .85rem;
+  font-size: 0.85rem;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -159,6 +88,19 @@ button:hover .booking-link {
     bottom: 0;
     left: 0;
     padding-top: 3vmin;
+  }
+
+  .booking-container {
+    margin: 7vmin 0 10vmin 0;
+  }
+
+  .booking-link {
+    border-radius: 5px;
+    padding: 2vmin 2vmin 2.25vmin 2vmin;
+  }
+
+  .booking-link:hover {
+    color: rgb(149, 210, 228);
   }
 
   .bookings {

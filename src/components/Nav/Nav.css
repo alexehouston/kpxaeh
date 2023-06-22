@@ -20,6 +20,15 @@ ul {
     letter-spacing: 1px;
 }
 
+.Nav h1 {
+    display: flex;
+    align-items: center;
+}
+
+.x {
+    font-size: 2vmin;
+}
+
 .Nav h1, .Links li {
     transition: all 0.5s ease;
 }
@@ -29,6 +38,7 @@ ul {
     color: rgb(149, 210, 228);
     transform: scale(1.1);
 }
+
 
 .Nav {
     display: flex;
@@ -42,6 +52,15 @@ ul {
 }
 
 @media only screen and (max-width: 500px) {
+
+    .Logo {
+        margin: 0;
+        height: 15vmin;
+    }
+
+    .x {
+        font-size: 3.5vmin;
+    }
 
     .Links {
         flex-direction: column;

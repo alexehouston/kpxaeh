@@ -13,9 +13,9 @@
 }
 
 .Kristen, .Alex, .Lexi {
-    background-color: #18181a8e;
-    border-radius: 40px;
-    width: 35vmin;
+    background-color: #18181a;
+    border-radius: 25px;
+    width: 30vmin;
     padding: 0 1vmin 2vmin 1vmin;
     margin: auto;
     box-shadow: rgb(149, 210, 228, 0.4) 0px 5px, rgb(149, 210, 228, 0.3) 0px 10px, rgb(149, 210, 228, 0.2) 0px 15px, rgb(149, 210, 228, 0.1) 0px 20px, rgb(149, 210, 228, 0.05) 0px 25px;
@@ -65,7 +65,6 @@
 
     .Kristen, .Alex, .Lexi {
         padding-top: 2vmin;
-        background-color: #18181a;
     }
 
 }
@@ -83,7 +82,7 @@
     }
 
     .contact-info {
-        font-size: 7vmin;
+        font-size: 5vmin;
         padding: 2vmin 0;
     }
 
@@ -92,13 +91,13 @@
     }
 
     .Kristen, .Alex, .Lexi {
-        width: 65vmin;
+        width: 60vmin;
         padding-top: 4vmin;
         margin: auto;
     }
 
     .fa-phone {
-        font-size: 6vmin;
+        font-size: 4.5vmin;
     }
 
     .Kristen .fa-envelope {

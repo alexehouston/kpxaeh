@@ -45,7 +45,8 @@ a:hover {
 }
 
 .Home span {
-    font-weight: 200;
+    font-weight: 300;
+    color: rgb(149, 210, 228);
 }
 
 @keyframes fade {
