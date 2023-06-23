@@ -54,7 +54,12 @@
 }
 
 .fa-phone, .fa-envelope, .fa-instagram {
+    transition: all .5s ease;
     color: rgb(149, 210, 228);
+}
+
+a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
+    color: #FFFFFF;
 }
 
 @media only screen and (max-width: 1500px) {
@@ -109,16 +114,13 @@
         margin: auto;
     }
 
-    .fa-phone {
-        font-size: 4.5vmin;
+    .fa-phone, .fa-envelope, .fa-instagram {
+        font-size: .9rem;
     }
 
-    .Kristen .fa-envelope {
-        padding: 0 4vmin;
-    }
-
-    .Alex .fa-instagram {
-        padding-left: 4vmin;
+    .contact-detail {
+        font-size: .6rem;
+        font-weight: 200;
     }
 
 }
