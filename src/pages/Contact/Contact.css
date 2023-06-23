@@ -13,13 +13,13 @@
 }
 
 .Kristen, .Alex, .Lexi {
-    background-color: #18181a;
+    background-color: var(--kpxaeh-black);
     border-radius: 25px;
     width: 30vmin;
     padding: 0 1vmin 2vmin 1vmin;
     margin: auto;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: rgb(149, 210, 228, 0.4) 0px 5px, rgb(149, 210, 228, 0.3) 0px 10px, rgb(149, 210, 228, 0.2) 0px 15px, rgb(149, 210, 228, 0.1) 0px 20px, rgb(149, 210, 228, 0.05) 0px 25px;
+    box-shadow: var(--kpxaeh-btn-shadow)
 }
 
 .Kristen h3, .Alex h3, .Lexi h3 {
@@ -29,7 +29,7 @@
 }
 
 .contact-name {
-    color: rgb(149, 210, 228);
+    color: var(--kpxaeh-blue);
     font-weight: 900;
 }
 
@@ -56,11 +56,11 @@
 
 .fa-phone, .fa-envelope, .fa-instagram {
     transition: all .5s ease;
-    color: rgb(149, 210, 228);
+    color: var(--kpxaeh-blue);
 }
 
 a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
-    color: #FFFFFF;
+    color: var(--kpxaeh-white);
 }
 
 @media only screen and (max-width: 1500px) {

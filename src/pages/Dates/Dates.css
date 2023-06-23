@@ -31,12 +31,12 @@
 }
 
 .booking-link {
-  background-color: #18181a;
+  background-color: var(--kpxaeh-black);
   font-size: 1.25vmin;
   border-radius: 10px;
   padding: 1vmin 1vmin 1.25vmin 1vmin;
   border: 1px solid rgba(255, 255, 255, 0.15);
-  box-shadow: rgb(149, 210, 228, 0.4) 0px 5px, rgb(149, 210, 228, 0.3) 0px 10px, rgb(149, 210, 228, 0.2) 0px 15px, rgb(149, 210, 228, 0.1) 0px 20px, rgb(149, 210, 228, 0.05) 0px 25px;
+  box-shadow: var(--kpxaeh-btn-shadow);
 }
 
 .fa-chevron-right {
@@ -102,7 +102,7 @@
   }
 
   .booking-link:hover {
-    color: rgb(149, 210, 228);
+    color: var(--kpxaeh-blue);
   }
 
   .bookings {
