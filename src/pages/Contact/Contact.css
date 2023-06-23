@@ -22,26 +22,39 @@
 }
 
 .Kristen h3, .Alex h3, .Lexi h3 {
-    font-weight: 300;
+    font-weight: 200;
     letter-spacing: 1px;
     font-size: 1.6vmin;
 }
 
-.Kristen span, .Alex span, .Lexi span {
+.contact-name {
     color: rgb(149, 210, 228);
     font-weight: 900;
 }
 
 .contact-info {
     display: flex;
-    justify-content: center;
-    column-gap: 3vmin;
-    align-items: center;
-    font-size: 3vmin;
+    flex-direction: column;
+    row-gap: 1rem;
+    font-size: 1.2rem;
+    margin: 1.5rem 0 .5rem;
 }
 
-.fa-phone {
-    font-size: 2.7vmin;
+.contact-info a {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1rem;
+}
+
+.contact-detail {
+    font-family: 'Martian Mono', monospace;
+    font-size: .7rem;
+    font-weight: 100;
+}
+
+.fa-phone, .fa-envelope, .fa-instagram {
+    color: rgb(149, 210, 228);
 }
 
 @media only screen and (max-width: 1500px) {
