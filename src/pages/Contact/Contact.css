@@ -103,6 +103,7 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
     .contact-info {
         font-size: 5vmin;
         padding: 2vmin 0;
+        margin: 1rem 0 .5rem;
     }
 
     .Contact h3 {
