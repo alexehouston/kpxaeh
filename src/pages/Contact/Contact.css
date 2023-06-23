@@ -117,11 +117,11 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
     }
 
     .fa-phone, .fa-envelope, .fa-instagram {
-        font-size: .9rem;
+        font-size: 1rem;
     }
 
     .contact-detail {
-        font-size: .65rem;
+        font-size: .6rem;
         font-weight: 200;
     }
 
