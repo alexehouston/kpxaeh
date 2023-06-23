@@ -111,7 +111,7 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
     }
 
     .Kristen, .Alex, .Lexi {
-        width: 60vmin;
+        width: 75vmin;
         padding-top: 4vmin;
         margin: auto;
     }
@@ -121,7 +121,7 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
     }
 
     .contact-detail {
-        font-size: .6rem;
+        font-size: .65rem;
         font-weight: 200;
     }
 
