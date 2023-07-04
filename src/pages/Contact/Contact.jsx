@@ -2,7 +2,7 @@ import './Contact.css';
 
 export default function Contact() {
     return (
-        <div className="Contact">
+        <div className="Contact animate__animated animate__fadeInUp">
             <div className="Kristen">
                 <h3>Contact <span className="contact-name">Kristen</span></h3>
                 <div className="contact-info">

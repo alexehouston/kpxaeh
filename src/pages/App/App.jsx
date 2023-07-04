@@ -12,7 +12,7 @@ export default function App() {
     <div className="animate__animated animate__fadeIn animate__slow">
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
       <div className="App">
-        {currentPage === 'dates' ? ( <Dates /> ) : currentPage === 'contact' ? ( <Contact /> ) : ( <><h1 className="Home">Book with<br /><span>Kristen Pennington</span><br />& <span>Alex E. Houston</span></h1></> )}
+        {currentPage === 'dates' ? ( <Dates /> ) : currentPage === 'contact' ? ( <Contact /> ) : ( <><h1 className="Home animate__animated animate__fadeInUp">Book with<br /><span>Kristen Pennington</span><br />& <span>Alex E. Houston</span></h1></> )}
       </div>
     </div>
   );

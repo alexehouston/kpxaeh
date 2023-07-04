@@ -2,7 +2,7 @@ import "./Dates.css";
 
 export default function Dates() {
   return (
-    <div className="Dates">
+    <div className="Dates animate__animated animate__fadeInUp">
       <div className="cities">
         <div className="chi">
           <h1>Chicago</h1>
