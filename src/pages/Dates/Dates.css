@@ -1,19 +1,16 @@
 .Dates {
-  height: 70vh;
-  width: 100vw;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  animation: fadeInUp 1s;
-  background-color: rgba(37, 49, 61, 0.6);
-  margin: 6vmin 0 0 -1vmin;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  margin: 0;
 }
 
 .cities {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 15vmin;
+  column-gap: 5rem;
   text-align: center;
 }
 
@@ -62,14 +59,9 @@
   font-size: 0.85rem;
 }
 
-@media only screen and (max-width: 1500px) {
-  .Dates {
-    height: 55vh;
-    margin-top: 25vmin;
-  }
-
+@media only screen and (max-width: 1200px) {
   .cities {
-    column-gap: 0;
+    column-gap: 1rem;
   }
 
   .salon h6 {
@@ -84,7 +76,7 @@
 
 @media only screen and (max-width: 500px) {
   .Dates {
-    height: 70vh;
+    height: 80vh;
     position: fixed;
     bottom: 0;
     left: 0;

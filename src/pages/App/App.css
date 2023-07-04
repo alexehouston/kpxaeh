@@ -6,6 +6,7 @@
     --kpxaeh-blue: rgb(149, 210, 228);
     --kpxaeh-black: #18181a;
     --kpxaeh-btn-shadow: rgb(149, 210, 228, 0.4) 0px 5px, rgb(149, 210, 228, 0.3) 0px 10px, rgb(149, 210, 228, 0.2) 0px 15px, rgb(149, 210, 228, 0.1) 0px 20px, rgb(149, 210, 228, 0.05) 0px 25px;
+    --kpxaeh-banner-bg: rgba(37, 49, 61, 0.6);
 }
 
 * {
@@ -25,7 +26,7 @@ html {
 }
 
 body {
-    animation: fade ease 2s;
+    margin: 0;
 }
 
 a {
@@ -40,41 +41,39 @@ a:hover {
     transform: scale(1.1);
 }
 
+.App {
+    background-color: var(--kpxaeh-banner-bg);
+    position: absolute;
+    top: 0; bottom: 0; left: 0; right: 0;
+    margin: auto;
+    height: 65vh;
+}
+
 .Home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    font-size: 2.5rem;
     font-weight: 100;
-    font-size: 5vmin;
-    letter-spacing: -.25vmin;
-    width: 50vw;
-    position: fixed;
-    bottom: 35%;
-    right: 0;
-    animation: fadeInRight 1s;
+    padding: 2rem;
+    text-align: right;
 }
 
 .Home span {
-    font-weight: 500;
+    font-weight: 300;
+    letter-spacing: -2px;
     color: var(--kpxaeh-blue);
-}
-
-@keyframes fade {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
-}
-
-@media only screen and (max-width: 1500px) {
-
-    .Home {
-        width: 100vw;
-        font-size: 8vmin;
-        bottom: 20%;
-        background-color: rgba(37, 49, 61, 0.6);
-        padding: 5vmin 5vmin 5vmin 10vmin;
-    }
+    display: contents;
 }
 
 @media only screen and (max-width: 500px) {
-
-    .Home {
-        font-size: 8vmin;
+    .App {
+        margin: 0;
+        top: auto;
+        bottom: 0;
+        height: 80vh;
     }
 }

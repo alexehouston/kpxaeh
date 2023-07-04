@@ -1,23 +1,20 @@
 .Contact {
-    height: 70vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    row-gap: 0;
-    animation: fadeInUp 1s;
-    text-align: center;
-    background-color: rgba(37, 49, 61, 0.6);
-    margin: 6vmin 0 0 -1vmin;
-    padding: 5vmin;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
 }
 
-.Kristen, .Alex, .Lexi {
+.Kristen, .Alex {
     background-color: var(--kpxaeh-black);
     border-radius: 25px;
-    width: 30vmin;
+    width: 18rem;
     padding: 0 1vmin 2vmin 1vmin;
-    margin: auto;
+    margin: 1.5rem auto;
+    text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.15);
     box-shadow: var(--kpxaeh-btn-shadow)
 }
@@ -63,19 +60,7 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
     color: var(--kpxaeh-white);
 }
 
-@media only screen and (max-width: 1500px) {
-    
-    .Contact {
-        height: 55vh;
-        margin-top: 25vmin;
-    }
-
-    .Contact {
-        display: flex;
-        flex-direction: column;
-        row-gap: 8vmin;
-        padding-top: 9vmin;
-    }
+@media only screen and (max-width: 1200px) {
 
     .Contact h3 {
         margin: 0;
@@ -90,17 +75,6 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
 
 @media only screen and (max-width: 500px) {
 
-    .Contact {
-        height: 70vh;
-        display: flex;
-        flex-direction: column;
-        position: fixed;
-        bottom: 0;
-        left: 0;
-        padding: 12vmin;
-        margin: 0;
-    }
-
     .contact-info {
         font-size: 5vmin;
         padding: 1vmin 0;
@@ -109,12 +83,6 @@ a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
 
     .Contact h3 {
         font-size: 3.5vmin;
-    }
-
-    .Kristen, .Alex, .Lexi {
-        width: 75vmin;
-        padding-top: 4vmin;
-        margin: auto;
     }
 
     .fa-phone, .fa-envelope, .fa-instagram {

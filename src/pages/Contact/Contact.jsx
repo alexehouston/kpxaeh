@@ -18,12 +18,6 @@ export default function Contact() {
                     <a href="https://www.instagram.com/byalexehouston/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i> <span className="contact-detail">@byalexehouston</span></a>
                 </div>
             </div>
-            <div className="Lexi">
-                <h3>Follow <span className="contact-name">Lexi</span></h3>
-                <div className="contact-info">
-                <a href="https://www.instagram.com/lexiluslooks/" target="_blank" rel="noreferrer"><i className="fa-brands fa-instagram"></i> <span className="contact-detail">@lexiluslooks</span></a>
-                </div>
-            </div>
         </div>
     );
 }

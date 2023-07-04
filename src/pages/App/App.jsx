@@ -9,9 +9,11 @@ export default function App() {
   const [currentPage, setCurrentPage] = useState('home');
 
   return (
-    <>
+    <div className="animate__animated animate__fadeIn animate__slow">
       <Nav currentPage={currentPage} setCurrentPage={setCurrentPage} />
-      {currentPage === 'dates' ? ( <Dates /> ) : currentPage === 'contact' ? ( <Contact /> ) : ( <><h1 className="Home">Book with<br /><span>Kristen Pennington</span><br /> & <span>Alex E. Houston</span></h1></> )}
-    </>
+      <div className="App">
+        {currentPage === 'dates' ? ( <Dates /> ) : currentPage === 'contact' ? ( <Contact /> ) : ( <><h1 className="Home">Book with<br /><span>Kristen Pennington</span><br />& <span>Alex E. Houston</span></h1></> )}
+      </div>
+    </div>
   );
 }
