@@ -76,7 +76,7 @@
 
 @media only screen and (max-width: 500px) {
   .Dates {
-    height: 80vh;
+    height: 50vh;
     position: fixed;
     bottom: 0;
     left: 0;

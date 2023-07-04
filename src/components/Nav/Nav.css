@@ -10,6 +10,10 @@ ul {
     column-gap: 5vmin;
 }
 
+.Nav {
+    margin: .5rem;
+}
+
 .Logo {
     font-size: 4vmin;
 }
