@@ -1,9 +1,78 @@
+import { Accordion, AccordionItem } from '@szhsin/react-accordion';
 import "./Dates.css";
 
-export default function Dates() {
+export default function Dates({ isSmallScreen }) {
   return (
     <div className="Dates animate__animated animate__fadeInUp">
-      <div className="cities">
+      {isSmallScreen ? (
+        <div className="accordion-container">
+        <Accordion>
+          <AccordionItem initialEntered header={<>Chicago <i className="fa-solid fa-chevron-down chevron-down"></i></>}>
+            <div className="city">
+              <div className="col-1">
+                <div className="dates">
+                  <li>August 12 + 13</li>
+                  <li>November 11 + 12</li>
+                </div>
+              </div>
+              <div className="col-2">
+                <a
+                  href="https://kpxaeh.as.me/chicago"
+                  className="booking-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Booking Link<i className="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11881.804559456164!2d-87.6557881!3d41.8831539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cd8ffb2a28d%3A0xd97919872e4abb89!2sSOLO%20SALON%20WASHINGTON!5e0!3m2!1sen!2sus!4v1688501266471!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </AccordionItem>
+          <AccordionItem header={<>San Francisco <i className="fa-solid fa-chevron-down chevron-down"></i></>}>
+            <div className="city">
+              <div className="col-1">
+                <div className="dates">
+                  <li>September 10</li>
+                  <li>December 10</li>
+                </div>
+              </div>
+              <div className="col-2">
+                <a
+                  href="https://kpxaeh.as.me/sanfrancisco"
+                  className="booking-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Booking Link<i className="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201879.8559738162!2d-122.60206751684781!3d37.757857184595565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1688503507576!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </AccordionItem>
+          <AccordionItem header={<>New York <i className="fa-solid fa-chevron-down chevron-down"></i></>}>
+            <div className="city">
+              <div className="col-1">
+                <div className="dates">
+                  <li>July 16</li>
+                  <li>October 15</li>
+                </div>
+              </div>
+              <div className="col-2">
+                <a
+                  href="https://kpxaeh.as.me/newyork"
+                  className="booking-link"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  Booking Link<i className="fa-solid fa-chevron-right"></i>
+                </a>
+              </div>
+            </div>
+            <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12095.410081019756!2d-73.995793!3d40.721263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25985e52603cf%3A0x7d9c3d0804b3cc3e!2sMaria%20Bonita%20Salon%20%26%20Spa!5e0!3m2!1sen!2sus!4v1688503430556!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
+          </AccordionItem>
+        </Accordion>
+      </div>
+      ) : (<div className="cities">
         <div className="chi">
           <h1>Chicago</h1>
           <div className="booking-container">
@@ -21,23 +90,8 @@ export default function Dates() {
             <li>November 11 + 12</li>
           </div>
           <div className="salon">
-            <a
-              href="https://www.solo-salon.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h6>Solo Salon</h6>
-            </a>
-            <a
-              href="https://www.google.com/maps/place/SOLO+SALON+WASHINGTON/@41.8831539,-87.6557881,15z/data=!4m2!3m1!1s0x0:0xd97919872e4abb89?sa=X&ved=2ahUKEwi-04anmZ78AhWKkmoFHc8kDfkQ_BJ6BAh3EAg"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <li><i className="fa-solid fa-location-dot"></i> 1134 W Washington Blvd</li>
-              <li>Chicago, IL 60607</li>
-            </a>
+            <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d11881.804559456164!2d-87.6557881!3d41.8831539!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x880e2cd8ffb2a28d%3A0xd97919872e4abb89!2sSOLO%20SALON%20WASHINGTON!5e0!3m2!1sen!2sus!4v1688501266471!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <hr />
         </div>
         <div className="sf">
           <h1>San Francisco</h1>
@@ -56,17 +110,8 @@ export default function Dates() {
             <li>December 10</li>
           </div>
           <div className="salon">
-            <a
-              href="https://www.orosalonsf.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h6>&nbsp;</h6>
-            </a>
-            <li>TBA</li>
-            <li>&nbsp;</li>
+            <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d201879.8559738162!2d-122.60206751684781!3d37.757857184595565!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan%20Francisco%2C%20CA!5e0!3m2!1sen!2sus!4v1688503507576!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <hr />
         </div>
         <div className="ny">
           <h1>New York</h1>
@@ -85,26 +130,11 @@ export default function Dates() {
             <li>October 15</li>
           </div>
           <div className="salon">
-            <a
-              href="https://www.mariabonitany.com/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <h6>Maria Bonita Salon</h6>
-            </a>
-            <a
-              href="https://www.google.com/maps/place/Maria+Bonita+Salon+%26+Spa/@40.721263,-73.995793,15z/data=!4m5!3m4!1s0x0:0x7d9c3d0804b3cc3e!8m2!3d40.721263!4d-73.995793"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <li><i className="fa-solid fa-location-dot"></i> 199 Mott St</li>
-              <li>New York, NY 10012</li>
-            </a>
+            <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12095.410081019756!2d-73.995793!3d40.721263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25985e52603cf%3A0x7d9c3d0804b3cc3e!2sMaria%20Bonita%20Salon%20%26%20Spa!5e0!3m2!1sen!2sus!4v1688503430556!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
           </div>
-          <hr />
           <br />
         </div>
-      </div>
+      </div>)}
     </div>
   );
 }

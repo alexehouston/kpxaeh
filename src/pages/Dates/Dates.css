@@ -59,6 +59,60 @@
   font-size: 0.85rem;
 }
 
+iframe {
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  height: 7rem;
+  margin-top: 1.5rem;
+  filter: invert(1) saturate(0);
+}
+
+/* accordion */
+
+.chevron-down {
+  margin-left: auto;
+  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+
+.accordion-container {
+  width: 100%;
+  height: 100%;
+}
+
+.szh-accordion {
+  background: var(--kpxaeh-banner-bg);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.szh-accordion__item-btn {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  margin: 0;
+  padding: 1rem;
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: left;
+  color: var(--kpxaehwhite);
+  font-family: 'Lexend Mega', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  background-color: transparent;
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+}
+.szh-accordion__item-content {
+  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
+}
+.szh-accordion__item-panel {
+  padding: 1rem;
+}
+.szh-accordion__item--expanded .chevron-down {
+  transform: rotate(180deg);
+}
+
 @media only screen and (max-width: 1200px) {
   .cities {
     column-gap: 1rem;
@@ -75,66 +129,48 @@
 }
 
 @media only screen and (max-width: 500px) {
-  .Dates {
-    height: 50vh;
-    position: fixed;
+  .szh-accordion {
+    position: absolute;
     bottom: 0;
-    left: 0;
-    padding-top: 3vmin;
-    margin: 0;
+    height: 100%;
+    width: 100%;
   }
 
-  .booking-container {
-    margin: 8vmin 0 12vmin 0;
+  .city {
+    display: flex;
+    align-items: center;
+  }
+
+  .col-1, .col-2 {
+    width: 50%;
+  }
+
+  .col-2 {
+    display: flex;
+    justify-content: flex-end;
+  }
+
+  .szh-accordion__item-btn {
+    font-size: 1.25rem;
   }
 
   .booking-link {
-    border-radius: 5px;
-    padding: 2vmin 2vmin 2.25vmin 2vmin;
+    font-size: .8rem;
+    padding: 2vmin 2vmin 1.75vmin 2vmin;
+    margin-top: -.5rem;
   }
 
-  .booking-link:hover {
-    color: var(--kpxaeh-blue);
+  .dates {
+    margin: 0;
   }
 
-  .bookings {
-    overflow-y: auto;
+  .dates li {
+    line-height: 2;
+    font-size: .8rem;
   }
 
-  .book h1 {
-    font-size: 5vmin;
-  }
-
-  .book p {
-    font-size: 2.5vmin;
-  }
-
-  .cities {
-    display: flex;
-    flex-direction: column;
-    height: 75vh;
-    width: 100vw;
-    overflow: auto;
-  }
-
-  .cities h1 {
-    font-size: 5.5vmin;
-  }
-
-  .cities li {
-    font-size: 3vmin;
-  }
-
-  .cities a {
-    font-size: 3vmin;
-  }
-
-  .salon {
-    padding: 5vmin 0 10vmin 0;
-  }
-
-  .salon h6 {
-    font-size: 4vmin;
-    margin-bottom: .8rem;
+  iframe {
+    width: 100%;
+    height: auto;
   }
 }
