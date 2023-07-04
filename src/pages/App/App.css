@@ -56,15 +56,15 @@ a:hover {
     height: 100%;
     width: 100%;
     margin: 0;
-    font-size: 2.5rem;
+    font-size: 2rem;
     font-weight: 100;
     padding: 2rem;
     text-align: right;
 }
 
 .Home span {
-    font-weight: 300;
-    letter-spacing: -2px;
+    font-weight: 800;
+    letter-spacing: -4px;
     color: var(--kpxaeh-blue);
     display: contents;
 }
@@ -75,5 +75,9 @@ a:hover {
         top: auto;
         bottom: 0;
         height: 67vh;
+    }
+
+    .Home {
+        font-size: 1.75rem;
     }
 }

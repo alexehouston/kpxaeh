@@ -82,7 +82,6 @@ iframe {
 
 .szh-accordion {
   background: var(--kpxaeh-banner-bg);
-  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 .szh-accordion__item-btn {
@@ -101,7 +100,7 @@ iframe {
   text-transform: uppercase;
   background-color: transparent;
   border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
 .szh-accordion__item-content {
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
