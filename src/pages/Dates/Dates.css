@@ -10,12 +10,12 @@
 .cities {
   display: grid;
   grid-template-columns: auto auto auto;
-  column-gap: 5rem;
+  column-gap: 10vmin;
   text-align: center;
 }
 
 .chi, .sf, .ny {
-  width: 16rem;
+  width: 35vmin;
 }
 
 .cities h1 {
@@ -67,9 +67,15 @@ iframe {
   border: none;
   border-radius: 10px;
   width: 70%;
-  height: 7rem;
+  height: 12vmin;
   margin-top: 1.5rem;
-  filter: invert(1) saturate(0);
+  filter: invert(1) saturate(0) drop-shadow(0 0 0.75rem var(--kpxaeh-black));
+  transition: all .5s ease;
+  margin-top: 4vmin;
+}
+
+iframe:hover {
+  filter: invert(1) saturate(0) drop-shadow(0 0 0.75rem var(--kpxaeh-blue));
 }
 
 /* accordion */
@@ -131,7 +137,7 @@ iframe {
   }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 567px) {
   .szh-accordion {
     position: absolute;
     bottom: 0;
@@ -146,6 +152,7 @@ iframe {
 
   .col-1, .col-2 {
     width: 50%;
+    margin-bottom: 4vmin;
   }
 
   .col-2 {
@@ -174,6 +181,7 @@ iframe {
 
   iframe {
     width: 100%;
-    height: auto;
+    height: 40vmin;
+    margin-bottom: 1rem;
   }
 }

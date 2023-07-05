@@ -11,7 +11,7 @@
 .Kristen, .Alex {
     background-color: var(--kpxaeh-black);
     border-radius: 25px;
-    width: 18rem;
+    width: 40vmin;
     padding: 0 1vmin 2vmin 1vmin;
     margin: 1.5rem auto;
     text-align: center;
@@ -19,7 +19,7 @@
     box-shadow: var(--kpxaeh-btn-shadow)
 }
 
-.Kristen h3, .Alex h3, .Lexi h3 {
+.Kristen h3, .Alex h3 {
     font-weight: 200;
     letter-spacing: 1px;
     font-size: 1.6vmin;
