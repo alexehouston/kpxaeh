@@ -126,8 +126,8 @@ export default function Dates({ isSmallScreen }) {
           </a>
           </div>
           <div className="dates">
-            <li>July 16</li>
             <li>October 15</li>
+            <li>&nbsp;</li>
           </div>
           <div className="salon">
             <iframe title="Map" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12095.410081019756!2d-73.995793!3d40.721263!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25985e52603cf%3A0x7d9c3d0804b3cc3e!2sMaria%20Bonita%20Salon%20%26%20Spa!5e0!3m2!1sen!2sus!4v1688503430556!5m2!1sen!2sus" allowFullScreen="" loading="lazy" referrerPolicy="no-referrer-when-downgrade"></iframe>
