@@ -53,8 +53,8 @@ export default function Dates({ isSmallScreen }) {
             <div className="city">
               <div className="col-1">
                 <div className="dates">
-                  <li>July 16</li>
                   <li>October 15</li>
+                  <li>&nbsp;</li>
                 </div>
               </div>
               <div className="col-2">
