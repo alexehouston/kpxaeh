@@ -27,12 +27,6 @@
     border-radius: 50%;
 }
 
-.Kristen h3, .Alex h3 {
-    font-weight: 200;
-    letter-spacing: 1px;
-    font-size: 1.6vmin;
-}
-
 .contact-name {
     color: var(--kpxaeh-blue);
     font-weight: 900;
