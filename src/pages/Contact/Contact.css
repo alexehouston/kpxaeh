@@ -11,12 +11,20 @@
 .Kristen, .Alex {
     background-color: var(--kpxaeh-black);
     border-radius: 25px;
-    width: 40vmin;
-    padding: 0 1vmin 2vmin 1vmin;
+    height: 20vmin;
+    width: 50vmin;
+    padding: 1.5vmin;
     margin: 1.5rem auto;
-    text-align: center;
     border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: var(--kpxaeh-btn-shadow)
+    box-shadow: var(--kpxaeh-btn-shadow);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.Kristen img, .Alex img {
+    width: 30%;
+    border-radius: 50%;
 }
 
 .Kristen h3, .Alex h3 {
@@ -35,14 +43,11 @@
     flex-direction: column;
     row-gap: 1rem;
     font-size: 1.2rem;
-    margin: 1.5rem 0 .5rem;
 }
 
 .contact-info a {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 0 1rem;
 }
 
 .contact-detail {
@@ -51,48 +56,37 @@
     font-weight: 100;
 }
 
-.fa-phone, .fa-envelope, .fa-instagram {
+i {
     transition: all .5s ease;
     color: var(--kpxaeh-blue);
+    padding-right: 1rem;
 }
 
-a:hover .fa-phone, a:hover .fa-envelope, a:hover .fa-instagram {
+a:hover i {
     color: var(--kpxaeh-white);
 }
 
-@media only screen and (max-width: 1200px) {
-
-    .Contact h3 {
-        margin: 0;
-    }
+@media only screen and (max-width: 850px) {
 
     .Kristen, .Alex {
-        padding-top: 2vmin;
+        height: 25vmin;
     }
 
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 600px) {
 
     .Kristen, .Alex {
-        width: 70vmin;
+        height: 40vmin;
+        width: 85vmin;
     }
 
-    .contact-info {
-        font-size: 5vmin;
-        padding: 1vmin 0;
-    }
-
-    .Contact h3 {
-        font-size: 4vmin;
-    }
-
-    .fa-phone, .fa-envelope, .fa-instagram {
+    i {
         font-size: 1rem;
     }
 
     .contact-detail {
-        font-size: .8rem;
+        font-size: .7rem;
         font-weight: 200;
     }
 
