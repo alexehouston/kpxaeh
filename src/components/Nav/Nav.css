@@ -73,6 +73,7 @@ ul {
         flex-direction: column;
         align-items: flex-end;
         line-height: 8vmin;
+        padding-top: 1vmin;
     }
     
     .Nav h1 {
