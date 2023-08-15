@@ -1,14 +1,15 @@
+import { Link } from "react-router-dom";
 import './Nav.css';
 
 export default function Nav() {
     return (
         <div className="Nav">
-            <a href="/"><h1 className="Logo"><span>KP</span>&nbsp;<span className="x">x</span>&nbsp;<span>AEH</span></h1></a>
+            <Link to="/"><h1 className="Logo"><span>KP</span>&nbsp;<span className="x">x</span>&nbsp;<span>AEH</span></h1></Link>
             <div className="Links">
                 <a href="https://kpxaeh.as.me/schedule.php" target="_blank" rel="noreferrer">Booking</a>
-                <a href="/dates">Travel Dates</a>
-                <a href="/work">Work</a>
-                <a href="/contact">Contact</a>
+                <Link to="/dates">Travel Dates</Link>
+                <Link to="/work">Work</Link>
+                <Link to="/contact">Contact</Link>
             </div>
         </div>
     );
