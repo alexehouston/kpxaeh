@@ -1,14 +1,15 @@
 import './Nav.css';
 
-export default function Nav({ currentPage, setCurrentPage }) {
+export default function Nav() {
     return (
         <div className="Nav">
-            <h1 onClick={() => setCurrentPage('home')} className="Logo"><span>KP</span>&nbsp;<span className="x">x</span>&nbsp;<span>AEH</span></h1>
-            <ul className="Links">
-                <li><a href="https://kpxaeh.as.me/schedule.php" target="_blank" rel="noreferrer">Booking</a></li>
-                <li onClick={() => setCurrentPage('dates')}>Travel Dates</li>
-                <li onClick={() => setCurrentPage('contact')}>Contact</li>
-            </ul>
+            <a href="/"><h1 className="Logo"><span>KP</span>&nbsp;<span className="x">x</span>&nbsp;<span>AEH</span></h1></a>
+            <div className="Links">
+                <a href="https://kpxaeh.as.me/schedule.php" target="_blank" rel="noreferrer">Booking</a>
+                <a href="/dates">Travel Dates</a>
+                <a href="/work">Work</a>
+                <a href="/contact">Contact</a>
+            </div>
         </div>
     );
 }

@@ -11,6 +11,11 @@ ul {
 }
 
 .Nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4vmin;
+    animation: fadeInDown 1s;
     margin: .5rem;
 }
 
@@ -20,8 +25,13 @@ ul {
 
 .Links {
     font-family: 'Martian Mono', monospace;
+    font-size: 1.5vmin;
     font-weight: 200;
     letter-spacing: 1px;
+}
+
+.Links a {
+    padding-left: 3rem;
 }
 
 .Nav h1 {
@@ -33,26 +43,14 @@ ul {
     font-size: 2vmin;
 }
 
-.Nav h1, .Links li {
+.Nav h1, .Links a {
     transition: all 0.5s ease;
 }
 
-.Nav h1:hover, .Links li:hover {
+.Nav h1:hover, .Links a:hover {
     cursor: pointer;
     color: rgb(149, 210, 228);
     transform: scale(1.1);
-}
-
-
-.Nav {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 4vmin;
-    animation: fadeInDown 1s;
-}
-
-.Links {
-    font-size: 1.5vmin;
 }
 
 @media only screen and (max-width: 500px) {
@@ -66,7 +64,12 @@ ul {
         font-size: 3.5vmin;
     }
 
+    .Nav {
+        align-items: inherit;
+    }
+
     .Links {
+        display: flex;
         flex-direction: column;
         align-items: flex-end;
         line-height: 10vmin;
@@ -76,7 +79,7 @@ ul {
         font-size: 7vmin;
     }
 
-    .Links li {
+    .Links a {
         font-size: 3vmin;
     }
     
