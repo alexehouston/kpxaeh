@@ -53,7 +53,7 @@ export default function Work() {
                 flex: index === hoveredItemGallery1 ? "1 1 400px" : "0 1 20px",
               }}
             >
-              <img src={imageUrl} alt="" />
+              <img src={imageUrl} alt="" oncontextmenu="return false;" />
             </div>
           ))}
         </div>
@@ -70,7 +70,7 @@ export default function Work() {
                 flex: index === hoveredItemGallery2 ? "1 1 400px" : "0 1 20px",
               }}
             >
-              <img src={imageUrl} alt="" />
+              <img src={imageUrl} alt="" oncontextmenu="return false;" />
             </div>
           ))}
         </div>

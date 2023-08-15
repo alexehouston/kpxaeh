@@ -42,6 +42,7 @@
     height: 70%;
     object-fit: contain;
     transform: scale(2);
+    pointer-events: none;
 }
 
 @media only screen and (max-width: 850px) {
