@@ -29,7 +29,7 @@ export default function App() {
       <div className="App">
         <Routes location={location} key={location.pathname}>
           <Route path="/" index element={<Home />} />
-          <Route path="/dates" element={<Dates />} />
+          <Route path="/dates" element={<Dates isSmallScreen={isSmallScreen} />} />
           <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
