@@ -75,9 +75,10 @@
 
     .gallery-item {
         height: 12rem;
+        margin: 0 .3rem;
     }
 
     .gallery-item img {
-        height: 70%;
+        height: 65%;
     }
 }

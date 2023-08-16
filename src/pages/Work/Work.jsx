@@ -1,7 +1,7 @@
 import { useState} from "react";
 import "./Work.css";
 
-export default function Work() {
+export default function Work({ isSmallScreen }) {
   const [hoveredItemGallery1, setHoveredItemGallery1] = useState(0);
   const [hoveredItemGallery2, setHoveredItemGallery2] = useState(0);
 
@@ -50,7 +50,7 @@ export default function Work() {
               className="gallery-item"
               onMouseEnter={() => handleMouseEnterGallery1(index)}
               style={{
-                flex: index === hoveredItemGallery1 ? "1 1 400px" : "0 1 20px",
+                flex: index === hoveredItemGallery1 ? (isSmallScreen ? "1 1 800px" : "1 1 400px") : (isSmallScreen ? "1 1 70px" : "1 1 20px"),
               }}
             >
               <img src={imageUrl} alt="" oncontextmenu="return false;" />
@@ -67,7 +67,7 @@ export default function Work() {
               className="gallery-item"
               onMouseEnter={() => handleMouseEnterGallery2(index)}
               style={{
-                flex: index === hoveredItemGallery2 ? "1 1 400px" : "0 1 20px",
+                flex: index === hoveredItemGallery2 ? (isSmallScreen ? "1 1 800px" : "1 1 400px") : (isSmallScreen ? "1 1 70px" : "1 1 20px"),
               }}
             >
               <img src={imageUrl} alt="" oncontextmenu="return false;" />

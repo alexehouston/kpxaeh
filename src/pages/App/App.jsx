@@ -30,7 +30,7 @@ export default function App() {
         <Routes location={location} key={location.pathname}>
           <Route path="/" index element={<Home />} />
           <Route path="/dates" element={<Dates isSmallScreen={isSmallScreen} />} />
-          <Route path="/work" element={<Work />} />
+          <Route path="/work" element={<Work isSmallScreen={isSmallScreen} />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>
       </div>
