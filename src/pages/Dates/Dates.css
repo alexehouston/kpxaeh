@@ -51,6 +51,11 @@
   margin-top: 3vmin;
 }
 
+.nxtyr {
+  opacity: 30%;
+  font-weight: bold;
+}
+
 .salon h6 {
   margin: 10vmin 0 1.5vmin 0;
   font-size: 1.75vmin;
