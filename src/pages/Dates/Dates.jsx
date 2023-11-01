@@ -85,7 +85,7 @@ export default function Dates({ isSmallScreen }) {
               <div className="city">
                 <div className="col-1">
                   <div className="dates">
-                    <li>October 15</li>
+                    <li>&nbsp;</li>
                   </div>
                 </div>
                 <div className="col-2">
@@ -176,7 +176,7 @@ export default function Dates({ isSmallScreen }) {
               </a>
             </div>
             <div className="dates">
-              <li>October 15</li>
+              <li>&nbsp;</li>
               <br />
             </div>
             <div className="salon">
