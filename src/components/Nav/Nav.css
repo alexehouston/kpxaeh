@@ -1,87 +1,94 @@
-ul, li {
-    list-style-type: none;
-    padding: 0;
+ul,
+li {
+  list-style-type: none;
+  padding: 0;
 }
 
 ul {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    column-gap: 5vmin;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 5vmin;
 }
 
 .Nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 4vmin;
-    animation: fadeInDown 1s;
-    margin: .5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4vmin;
+  animation: fadeInDown 1s;
+  margin: 0.5rem;
 }
 
 .Logo {
-    font-size: 4vmin;
+  font-size: 4vmin;
 }
 
 .Links {
-    font-family: 'Martian Mono', monospace;
-    font-size: 1.5vmin;
-    font-weight: 200;
-    letter-spacing: 1px;
+  font-family: "Martian Mono", monospace;
+  font-size: 1.5vmin;
+  font-weight: 200;
+  letter-spacing: 1px;
 }
 
 .Links a {
-    padding-left: 3rem;
+  margin-left: 3rem;
+}
+
+.Links .booking-link {
+    font-family: 'Lexend Mega', sans-serif;
+    font-weight: 400;
+    padding-left: 1rem;
 }
 
 .Nav h1 {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .x {
-    font-size: 2vmin;
+  font-size: 2vmin;
 }
 
-.Nav h1, .Links a {
-    transition: all 0.5s ease;
+.Nav h1,
+.Links a {
+  transition: all 0.5s ease;
 }
 
-.Nav h1:hover, .Links a:hover {
-    cursor: pointer;
-    color: rgb(149, 210, 228);
-    transform: scale(1.1);
+.Nav h1:hover,
+.Links a:hover {
+  cursor: pointer;
+  color: rgb(149, 210, 228);
+  transform: scale(1.1);
 }
 
 @media only screen and (max-width: 500px) {
+  .Logo {
+    margin: 0;
+    height: 15vmin;
+  }
 
-    .Logo {
-        margin: 0;
-        height: 15vmin;
-    }
+  .x {
+    font-size: 3.5vmin;
+  }
 
-    .x {
-        font-size: 3.5vmin;
-    }
+  .Nav {
+    align-items: inherit;
+  }
 
-    .Nav {
-        align-items: inherit;
-    }
+  .Links {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    line-height: 8vmin;
+    margin-top: 1rem;
+  }
 
-    .Links {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        line-height: 8vmin;
-        padding-top: 1vmin;
-    }
-    
-    .Nav h1 {
-        font-size: 7vmin;
-    }
+  .Nav h1 {
+    font-size: 7vmin;
+  }
 
-    .Links a {
-        font-size: 3vmin;
-    }
-    
+  .Links a {
+    font-size: 3vmin;
+  }
 }

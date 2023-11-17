@@ -6,7 +6,6 @@ export default function Nav() {
         <div className="Nav">
             <Link to="/"><h1 className="Logo"><span>KP</span>&nbsp;<span className="x">x</span>&nbsp;<span>AEH</span></h1></Link>
             <div className="Links">
-                <a href="https://kpxaeh.as.me/schedule.php" target="_blank" rel="noreferrer">Booking</a>
                 <Link to="/dates">Travel Dates</Link>
                 <Link to="/work">Work</Link>
                 <Link to="/contact">Contact</Link>

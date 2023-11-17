@@ -19,17 +19,30 @@ export default function Dates({ isSmallScreen }) {
               <div className="city">
                 <div className="col-1">
                   <div className="dates">
-                    <li>November 11 + 12</li>
+                    <li>February 3 + 4</li>
+                    <li>May 11 + 12</li>
+                    <li>August 10 + 11</li>
+                    <li>November 9 + 10</li>
                   </div>
                 </div>
                 <div className="col-2">
+                  <a
+                    href="https://aeh-booking.square.site/"
+                    className="booking-link"
+                    target="_blank"
+                    rel="noreferrer"
+                  >
+                    Book With Alex
+                    <i className="fa-solid fa-chevron-right"></i>
+                  </a>
                   <a
                     href="https://kpxaeh.as.me/chicago"
                     className="booking-link"
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Booking Link<i className="fa-solid fa-chevron-right"></i>
+                    Book With Kristen
+                    <i className="fa-solid fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -52,7 +65,7 @@ export default function Dates({ isSmallScreen }) {
               <div className="city">
                 <div className="col-1">
                   <div className="dates">
-                    <li>December 10</li>
+                    <li>2024</li>
                   </div>
                 </div>
                 <div className="col-2">
@@ -62,7 +75,8 @@ export default function Dates({ isSmallScreen }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Booking Link<i className="fa-solid fa-chevron-right"></i>
+                    Book With Kristen
+                    <i className="fa-solid fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -85,7 +99,7 @@ export default function Dates({ isSmallScreen }) {
               <div className="city">
                 <div className="col-1">
                   <div className="dates">
-                    <li className="nxtyr">2024</li>
+                    <li>2024</li>
                   </div>
                 </div>
                 <div className="col-2">
@@ -95,7 +109,8 @@ export default function Dates({ isSmallScreen }) {
                     target="_blank"
                     rel="noreferrer"
                   >
-                    Booking Link<i className="fa-solid fa-chevron-right"></i>
+                    Book With Kristen
+                    <i className="fa-solid fa-chevron-right"></i>
                   </a>
                 </div>
               </div>
@@ -115,17 +130,28 @@ export default function Dates({ isSmallScreen }) {
             <h1>Chicago</h1>
             <div className="booking-container">
               <a
-                href="https://kpxaeh.as.me/chicago"
+                href="https://aeh-booking.square.site/"
                 className="booking-link"
                 target="_blank"
                 rel="noreferrer"
               >
-                Booking Link<i className="fa-solid fa-chevron-right"></i>
+                Book With Alex<i className="fa-solid fa-chevron-right"></i>
+              </a>
+              <a
+                href="https://kpxaeh.as.me/newyork"
+                className="booking-link"
+                target="_blank"
+                rel="noreferrer"
+              >
+                Book With Kristen
+                <i className="fa-solid fa-chevron-right"></i>
               </a>
             </div>
             <div className="dates">
-              <li>November 11 + 12</li>
-              <br />
+              <li>February 3 + 4</li>
+              <li>May 11 + 12</li>
+              <li>August 10 + 11</li>
+              <li>November 9 + 10</li>
             </div>
             <div className="salon">
               <iframe
@@ -141,17 +167,20 @@ export default function Dates({ isSmallScreen }) {
             <h1>San Francisco</h1>
             <div className="booking-container">
               <a
-                href="https://kpxaeh.as.me/sanfrancisco"
+                href="https://kpxaeh.as.me/newyork"
                 className="booking-link"
                 target="_blank"
                 rel="noreferrer"
               >
-                Booking Link<i className="fa-solid fa-chevron-right"></i>
+                Book With Kristen
+                <i className="fa-solid fa-chevron-right"></i>
               </a>
             </div>
             <div className="dates">
-              <li>December 10</li>
-              <br />
+              <li>2024</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
             </div>
             <div className="salon">
               <iframe
@@ -172,12 +201,15 @@ export default function Dates({ isSmallScreen }) {
                 target="_blank"
                 rel="noreferrer"
               >
-                Booking Link<i className="fa-solid fa-chevron-right"></i>
+                Book With Kristen
+                <i className="fa-solid fa-chevron-right"></i>
               </a>
             </div>
             <div className="dates">
-              <li className="nxtyr">2024</li>
-              <br />
+              <li>2024</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
+              <li>&nbsp;</li>
             </div>
             <div className="salon">
               <iframe

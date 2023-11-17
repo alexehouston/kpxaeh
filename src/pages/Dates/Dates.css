@@ -24,11 +24,14 @@
 
 .cities li {
   line-height: 2;
-  font-size: 1.75vmin;
+  font-size: 1.5vmin;
 }
 
 .booking-container {
-  margin: 4vmin 0 6vmin;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 9rem;
 }
 
 .booking-link {
@@ -38,6 +41,8 @@
   padding: 1vmin 1vmin 1.25vmin 1vmin;
   border: 1px solid rgba(255, 255, 255, 0.15);
   box-shadow: var(--kpxaeh-btn-shadow);
+  width: 80%;
+  margin: 1rem;
 }
 
 .fa-chevron-right {
@@ -46,7 +51,6 @@
 
 .dates {
   font-family: "Martian Mono", monospace;
-  font-weight: 200;
   letter-spacing: 1.5px;
   margin-top: 3vmin;
 }
@@ -59,13 +63,6 @@
 .salon h6 {
   margin: 10vmin 0 1.5vmin 0;
   font-size: 1.75vmin;
-}
-
-.salon li {
-  font-family: "Martian Mono", monospace;
-  line-height: 1.5;
-  font-weight: 200;
-  font-size: 0.85rem;
 }
 
 iframe {
@@ -117,12 +114,15 @@ iframe:hover {
   border: none;
   border-top: 1px solid rgba(255, 255, 255, 0.25);
 }
+
 .szh-accordion__item-content {
   transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
 }
+
 .szh-accordion__item-panel {
   padding: 1rem;
 }
+
 .szh-accordion__item--expanded .chevron-down {
   transform: rotate(180deg);
 }
@@ -139,6 +139,14 @@ iframe:hover {
 
   .salon li {
     font-size: 1.8vmin;
+  }
+
+  .booking-container {
+    height: 6rem;
+  }
+
+  .booking-link { 
+    margin: .5rem;
   }
 }
 
@@ -170,9 +178,19 @@ iframe:hover {
   }
 
   .booking-link {
-    font-size: .8rem;
-    padding: 2vmin 2vmin 1.75vmin 2vmin;
-    margin-top: -.5rem;
+    font-size: .65rem;
+    padding: 2vmin;
+    text-align: center;
+    width: 95%;
+  }
+
+  .col-2 {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .fa-chevron-right {
+    font-size: .7rem;
   }
 
   .dates {
