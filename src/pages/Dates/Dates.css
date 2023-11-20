@@ -5,17 +5,7 @@
   height: 100%;
   width: 100%;
   margin: 0;
-}
-
-.cities {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  column-gap: 10vmin;
   text-align: center;
-}
-
-.chi, .sf, .ny {
-  width: 35vmin;
 }
 
 .cities h1 {
@@ -55,16 +45,6 @@
   margin-top: 3vmin;
 }
 
-.nxtyr {
-  opacity: 30%;
-  font-weight: bold;
-}
-
-.salon h6 {
-  margin: 10vmin 0 1.5vmin 0;
-  font-size: 1.75vmin;
-}
-
 iframe {
   border: none;
   border-radius: 10px;
@@ -80,61 +60,9 @@ iframe:hover {
   filter: invert(1) saturate(0) drop-shadow(0 0 0.75rem var(--kpxaeh-blue));
 }
 
-/* accordion */
-
-.chevron-down {
-  margin-left: auto;
-  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
-}
-
-.accordion-container {
-  width: 100%;
-  height: 100%;
-}
-
-.szh-accordion {
-  background: var(--kpxaeh-banner-bg);
-}
-
-.szh-accordion__item-btn {
-  cursor: pointer;
-  display: flex;
-  align-items: center;
-  width: 100%;
-  margin: 0;
-  padding: 1rem;
-  font-size: 1rem;
-  font-weight: 400;
-  text-align: left;
-  color: var(--kpxaehwhite);
-  font-family: 'Lexend Mega', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  background-color: transparent;
-  border: none;
-  border-top: 1px solid rgba(255, 255, 255, 0.25);
-}
-
-.szh-accordion__item-content {
-  transition: transform 0.25s cubic-bezier(0, 0, 0, 1);
-}
-
-.szh-accordion__item-panel {
-  padding: 1rem;
-}
-
-.szh-accordion__item--expanded .chevron-down {
-  transform: rotate(180deg);
-}
-
 @media only screen and (max-width: 1200px) {
   .cities {
     column-gap: 0;
-  }
-
-  .salon h6 {
-    font-size: 2vmin;
-    margin-bottom: 5vmin;
   }
 
   .salon li {
@@ -151,60 +79,27 @@ iframe:hover {
 }
 
 @media only screen and (max-width: 567px) {
-  .szh-accordion {
-    position: absolute;
-    bottom: 0;
-    height: 100%;
-    width: 100%;
-  }
-
-  .city {
-    display: flex;
-    align-items: center;
-  }
-
-  .col-1, .col-2 {
-    width: 50%;
-    margin-bottom: 4vmin;
-  }
-
-  .col-2 {
-    display: flex;
-    justify-content: flex-end;
-  }
-
-  .szh-accordion__item-btn {
-    font-size: 1.25rem;
+  .cities h1 {
+    font-size: 1.5rem;
   }
 
   .booking-link {
     font-size: .65rem;
     padding: 2vmin;
-    text-align: center;
-    width: 95%;
-  }
-
-  .col-2 {
-    display: flex;
-    flex-direction: column;
   }
 
   .fa-chevron-right {
     font-size: .7rem;
-  }
-
-  .dates {
-    margin: 0;
+    margin-left: .25rem;
   }
 
   .dates li {
-    line-height: 2;
     font-size: .8rem;
   }
 
   iframe {
     width: 100%;
-    height: 40vmin;
-    margin-bottom: 1rem;
+    height: 30vmin;
+    margin-bottom: 3rem;
   }
 }

@@ -1,9 +1,25 @@
-import './Home.css';
+import "./Home.css";
 
 export default function Home() {
-    return (
-        <>
-            <h1 className="Home animate__animated animate__fadeInUp">Book with<br /><span>Kristen Pennington</span><br />& <span>Alex E. Houston</span></h1>
-        </>
-    )
+  return (
+    <div className="Home">
+        <a
+          href="https://aeh-booking.square.site/"
+          className="booking-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Book With Alex<i className="fa-solid fa-chevron-right"></i>
+        </a>
+        <a
+          href="https://kp-hair-color---chicago.square.site/s/appointments"
+          className="booking-link"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Book With Kristen
+          <i className="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+  );
 }

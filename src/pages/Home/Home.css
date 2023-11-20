@@ -2,18 +2,14 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     height: 100%;
     width: 100%;
-    margin: 0;
-    font-size: 5vmin;
-    font-weight: 100;
-    padding: 2rem;
-    text-align: right;
 }
 
-.Home span {
-    font-weight: 800;
-    letter-spacing: -4px;
-    color: var(--kpxaeh-blue);
-    display: contents;
+.Home .booking-link {
+    text-align: center;
+    font-size: .8rem;
+    margin: 1rem;
+    padding: 1rem;
 }

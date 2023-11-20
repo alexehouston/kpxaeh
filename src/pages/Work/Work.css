@@ -63,14 +63,19 @@
     }
 }
 
-@media only screen and (max-width: 550px) {
+@media only screen and (max-width: 567px) {
     .Work {
         flex-direction: column;
+        row-gap: 0rem;
+    }
+
+    .Work h4 {
+        font-size: .8rem;
     }
 
     .container {
         width: 100%;
-        margin: 0 auto;
+        margin: -1rem;
     }
 
     .gallery-item {
