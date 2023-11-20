@@ -36,7 +36,7 @@ export default function Dates({ isSmallScreen }) {
                     <i className="fa-solid fa-chevron-right"></i>
                   </a>
                   <a
-                    href="https://kpxaeh.as.me/chicago"
+                    href="https://kp-hair-color---chicago.square.site/s/appointments"
                     className="booking-link"
                     target="_blank"
                     rel="noreferrer"
@@ -138,7 +138,7 @@ export default function Dates({ isSmallScreen }) {
                 Book With Alex<i className="fa-solid fa-chevron-right"></i>
               </a>
               <a
-                href="https://kpxaeh.as.me/newyork"
+                href="https://kp-hair-color---chicago.square.site/s/appointments"
                 className="booking-link"
                 target="_blank"
                 rel="noreferrer"
