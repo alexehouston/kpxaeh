@@ -167,7 +167,7 @@ export default function Dates({ isSmallScreen }) {
             <h1>San Francisco</h1>
             <div className="booking-container">
               <a
-                href="https://kpxaeh.as.me/newyork"
+                href="https://kpxaeh.as.me/sanfrancisco"
                 className="booking-link"
                 target="_blank"
                 rel="noreferrer"
