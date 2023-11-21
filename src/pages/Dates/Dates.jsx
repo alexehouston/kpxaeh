@@ -1,4 +1,3 @@
-import { Accordion, AccordionItem } from "@szhsin/react-accordion";
 import "./Dates.css";
 
 export default function Dates({ isSmallScreen }) {
