@@ -93,6 +93,11 @@ iframe:hover {
     margin-left: .25rem;
   }
 
+  .dates {
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+  }
+
   .dates li {
     font-size: .8rem;
   }
