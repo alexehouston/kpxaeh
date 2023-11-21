@@ -50,7 +50,7 @@ export default function Work({ isSmallScreen }) {
               className="gallery-item"
               onMouseEnter={() => handleMouseEnterGallery1(index)}
               style={{
-                flex: index === hoveredItemGallery1 ? (isSmallScreen ? "1 1 800px" : "1 1 400px") : (isSmallScreen ? "1 1 70px" : "1 1 20px"),
+                flex: index === hoveredItemGallery1 ? (isSmallScreen ? "1 1 800px" : "1 1 400px") : (isSmallScreen ? "1 1 100px" : "1 1 20px"),
               }}
             >
               <img src={imageUrl} alt="" oncontextmenu="return false;" />
@@ -67,7 +67,7 @@ export default function Work({ isSmallScreen }) {
               className="gallery-item"
               onMouseEnter={() => handleMouseEnterGallery2(index)}
               style={{
-                flex: index === hoveredItemGallery2 ? (isSmallScreen ? "1 1 800px" : "1 1 400px") : (isSmallScreen ? "1 1 70px" : "1 1 20px"),
+                flex: index === hoveredItemGallery2 ? (isSmallScreen ? "1 1 800px" : "1 1 400px") : (isSmallScreen ? "1 1 100px" : "1 1 20px"),
               }}
             >
               <img src={imageUrl} alt="" oncontextmenu="return false;" />
