@@ -26,8 +26,7 @@ export default function Dates() {
               </a>
             </div>
             <div className="dates">
-              <li>February 3 + 4</li>
-              <li>May 11 + 12</li>
+              <li>May 4 + 5</li>
               <li>August 10 + 11</li>
               <li>November 9 + 10</li>
             </div>
