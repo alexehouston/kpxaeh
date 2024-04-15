@@ -9,7 +9,7 @@ export default function Dates() {
             <div className="booking-container">
               <a
                 href="https://aeh-booking.square.site/"
-                className="booking-link"
+                className="aeh-btn"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -17,7 +17,7 @@ export default function Dates() {
               </a>
               <a
                 href="https://kp-hair-color---chicago.square.site/s/appointments"
-                className="booking-link"
+                className="aeh-btn"
                 target="_blank"
                 rel="noreferrer"
               >
