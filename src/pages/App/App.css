@@ -50,17 +50,6 @@ a:hover {
     display: flex;
 }
 
-.aeh-btn {
-    background-color: var(--kpxaeh-black);
-    font-size: 1.25vmin;
-    border-radius: 10px;
-    padding: 1vmin 1vmin 1.25vmin 1vmin;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    box-shadow: var(--kpxaeh-btn-shadow);
-    width: 80%;
-    margin: 1rem;
-}
-
 @media only screen and (max-width: 500px) {
     .App {
         margin: 0;
