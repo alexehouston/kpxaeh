@@ -23,12 +23,12 @@ export default function Contact() {
             <span className="contact-detail">kristen@kphaircolor.com</span>
           </a>
           <a
-            href="https://www.instagram.com/kphaircolor/"
+            href="https://www.instagram.com/mrs4everkp/"
             target="_blank"
             rel="noreferrer"
           >
             <i className="fa-brands fa-instagram"></i>{" "}
-            <span className="contact-detail">@kphaircolor</span>
+            <span className="contact-detail">@mrs4everkp</span>
           </a>
         </div>
       </div>
